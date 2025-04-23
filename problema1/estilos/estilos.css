@@ -1,0 +1,41 @@
+/* Establece el estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+  }
+  
+/* Estilos para el contenedor del mensaje principal */
+  .uno {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(112, 112, 250);
+    padding: 10px; /* Espacio interior dentro del borde */
+    margin-bottom: 10px;
+  }
+  
+/* Estilos para el párrafo con el mensaje */
+.mensaje {
+  background-color: #f2f2f2;       /* Fondo gris claro */
+  border: 2px solid yellow;        /* Borde amarillo brillante */
+  padding: 15px;                   /* Espacio interior */
+  font-weight: bold;              /* Texto en negrita */
+  font-size: 1.5em;               /* Tamaño de fuente grande */
+  margin: 0;                      /* Elimina el margen exterior */
+}
+  
+  /* Contenedor de comentarios */
+  .dos {
+    background-color: peru;
+    border: 1px solid green;
+    padding: 10px;
+  }
+  
+  /* Estilos para cada comentario individual */
+  .comentario {
+    color: white;
+    border-bottom: 2px solid green;
+    padding: 5px 0;
+    margin: 0;
+  }
+  
